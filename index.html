@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS-Landing</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        html {
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: normal;
+            font-style: normal;
+            font-variation-settings: "slnt" 0;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1552px;
+            margin: 0px auto;
+            padding-inline: 16px;
+        }
+
+        .choose-plan {
+            padding-block: 140px;
+        }
+
+        .choose-plan-title {
+            font-size: 72px;
+            line-height: 87px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 24px;
+            text-align: center;  
+        }
+
+        .choose-plan-discription {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #212529;
+            margin-bottom: 60px;
+            text-align: center;    
+        }
+
+        .offers {
+            display: flex;
+            justify-content: center;
+            gap: 32px; 
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .offer {
+            border: 1px solid #FFE492;
+            padding: 40px 44px;
+            border-radius: 10px;
+            width: 472px;
+        }
+
+        .offer.offer-dark {
+            background-color: #043873;
+            border-color: #043873;
+            padding-block: 80px;
+        }
+
+        .offer-tariff {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 25px;  
+        }
+
+        .offer-dark .offer-tariff {
+            color: #FFFFFF;
+        }
+
+        .offer-price {
+            font-size: 36px;
+            line-height: 43.57px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 25px;
+        
+        }
+
+        .offer-dark .offer-price {
+            color: #FFE492;
+        }
+
+        .offer-discription {
+            font-size: 18px;
+            line-height: 23px;
+            font-weight: 500;
+            color: #212529;
+            margin-bottom: 25px; 
+        }
+
+        .offer-dark .offer-discription {
+            color: #FFFFFF;
+        }
+
+        .offer-condition {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 400;
+            color: #212529;
+            list-style-position: inside;
+            margin-bottom: 28px; 
+        }
+
+        .offer-dark .offer-condition {
+            color: #FFFFFF;
+        }
+
+        .offer-button {
+            font-size: 16px;
+            line-height: 19.36px;
+            font-weight: 500;
+            color: #212529;
+            font-family: inherit; 
+            padding: 16px 40px;
+            background: none;
+            border: 1px solid #FFE492;
+            border-radius: 8px;
+        }
+
+        .offer-dark  .offer-button {
+            color: #FFFFFF;
+            background-color: #4F9CF9;
+            border-color: #4F9CF9;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="choose-plan">
+        <div class="container">
+            <h2 class="choose-plan-title">Choose Your Plan</h2>
+            <p class="choose-plan-discription">Whether you want to get organized, keep your personal life on track, or boost workplace productivity, Evernote has the right plan for you.</p>
+            <div class="offers">
+                <div class="offer">
+                    <h3 class="offer-tariff">Free</h3>
+                    <div class="offer-price">0$</div>
+                    <div class="offer-discription">Capture ideas and find them quickly</div>
+                    <ul class="offer-conditions">
+                        <li class="offer-condition">Sync unlimited devices</li>
+                        <li class="offer-condition">10 GB monthly uploads</li>
+                        <li class="offer-condition">200 MB max. note size</li>
+                        <li class="offer-condition">Customize Home dashboard and access extra widgets</li>
+                        <li class="offer-condition">Connect primary Google Calendar account</li>
+                        <li class="offer-condition">Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                    <button class="offer-button">Get Started</button>
+                </div>
+                <div class="offer offer-dark">
+                    <h3 class="offer-tariff">Personal</h3>
+                    <div class="offer-price">$11.99</div>
+                    <div class="offer-discription">Keep home and family on track</div>
+                    <ul class="offer-conditions">
+                        <li class="offer-condition">Sync unlimited devices</li>
+                        <li class="offer-condition">10 GB monthly uploads</li>
+                        <li class="offer-condition">200 MB max. note size</li>
+                        <li class="offer-condition">Customize Home dashboard and access extra widgets</li>
+                        <li class="offer-condition">Connect primary Google Calendar account</li>
+                        <li class="offer-condition">Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                    <button class="offer-button">Get Started</button>
+                </div>
+                <div class="offer">
+                    <h3 class="offer-tariff">Organization</h3>
+                    <div class="offer-price">$49.99</div>
+                    <div class="offer-discription">Capture ideas and find them quickly</div>
+                    <ul class="offer-conditions">
+                        <li class="offer-condition">Sync unlimited devices</li>
+                        <li class="offer-condition">10 GB monthly uploads</li>
+                        <li class="offer-condition">200 MB max. note size</li>
+                        <li class="offer-condition">Customize Home dashboard and access extra widgets</li>
+                        <li class="offer-condition">Connect primary Google Calendar account</li>
+                        <li class="offer-condition">Add due dates, reminders, and notifications to your tasks</li>
+                    </ul>
+                    <button class="offer-button">Get Started</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
