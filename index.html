@@ -28,6 +28,18 @@
             padding-inline: 16px;
         }
 
+        .button {
+            font-size: 16px;
+            line-height: 19.36px;
+            font-weight: 500;
+            color: white;
+            font-family: inherit; 
+            padding: 16px 40px;
+            background-color: #4F9CF9;
+            border: 1px solid;
+            border-radius: 8px; 
+        }
+
         .choose-plan {
             padding-block: 140px;
         }
@@ -169,16 +181,39 @@
             text-align: center; 
         }
 
-        .call-action-button {
-            font-size: 16px;
-            line-height: 19.36px;
-            font-weight: 500;
-            color: white;
-            font-family: inherit; 
-            padding: 16px 40px;
-            background-color: #4F9CF9;
-            border: 1px solid #043873;
-            border-radius: 8px;  
+        .data {
+            padding: 140px 0px;
+        }
+
+        .data-content {
+            display: flex;
+            align-items: center;
+        }
+
+        .data-info {
+            width: 53%;
+        }
+        
+        .data-title {
+            font-size: 72px;
+            line-height: 87px;
+            font-weight: 700;
+            color: #212529;
+            margin-bottom: 24px;
+            text-align: left;  
+        }
+
+        .data-discription {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #212529;
+            margin-bottom: 60px;
+            text-align: left;
+        }
+
+        .data-image {
+            width: 47%;
         }
     </style>
 </head>
@@ -239,10 +274,22 @@
             <div class="call-action-content">
                 <h2 class="call-action-title">Your work, everywhere you are</h2>
                 <p class="call-action-discription">Access your notes from your computer, phone or tablet by synchronising with various services, including whitepace, Dropbox and <br> OneDrive. The app is available on Windows, macOS, Linux, Android and iOS. A terminal app is also available!</p>
-                <button class="call-action-button">Try Taskey</button>
+                <button class="button">Try Taskey</button>
             </div>
-         
         </div>
+    </div>
+    <div class="data">
+        <div class="container">
+            <div class="data-content">
+                <div class="data-info">
+                    <h2 class="data-title">100% your data</h2>
+                    <p class="data-discription">The app is open source and your notes are saved to an open format, so you'll always have access to them. Uses End-To-End Encryption (E2EE) to secure your notes  and ensure no-one but yourself can access them.</p>
+                    <button class="button">Read More</button>
+                </div>
+                <img class="data-image" SRC="./images/data.svg">
+            </div>
+        </div>
+
     </div>
 </body>
 </html>
