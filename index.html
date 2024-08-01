@@ -215,6 +215,105 @@
         .data-image {
             width: 47%;
         }
+
+        .feedback {
+            padding-block: 140px;
+        }
+
+        .feedback-title {
+            font-size: 72px;
+            line-height: 87px;
+            font-weight: 700;
+            color: #212529;
+            text-align: center;
+            margin: 0px 0px 60px;  
+        }
+
+        .reviews {
+            display: flex;
+            gap: 32px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .review {
+            box-shadow: 15px 10px 50px rgb(0 0 0 / 10%);
+            padding: 60px 40px;
+            border-radius: 10px;
+            max-width: 471.67px;
+        }
+
+        .review.review-dark {
+            background-color: #4F9CF9;
+        }
+       
+        .review-comment {
+            font-size: 18px;
+            line-height: 30px;
+            font-weight: 400;
+            color: #212529;
+        }
+
+        .review-dark .review-comment {
+            color: #FFFFFF;
+        }
+
+        .review-mark {
+            height: 61px;
+            margin-bottom: 32px;
+            display: flex;
+        }
+
+        .review-mark2 {
+            height: 61px;
+            margin-bottom: 32px;
+            display: flex;
+        }
+        
+        .review-separator {
+            width: 100%;
+            height: 1px;
+            background-color: #212529;
+            margin: 40px 0px 60px;
+        }
+
+        .review-dark .review-separator {
+            background-color: white;
+        }
+
+        .review-user {
+            display: flex;
+            gap: 42px; 
+            align-items: center;
+        }
+
+        .review-user-avatar {
+            width: 95px;
+            height: 95px;
+        }
+
+        .review-user-name {
+            font-size: 24px;
+            line-height: 36px;
+            font-weight: 600;
+            color: #212529;
+            margin-bottom: 15px;
+        }
+
+        .review-dark .review-user-name {
+            color:  #043873;
+        }
+
+        .review-user-info {
+            font-size: 16px;
+            line-height: 20px;
+            font-weight: 400;
+            color:#212529;
+        }
+
+        .review-dark .review-user-info {
+            color: #FFFFFF;
+        }
     </style>
 </head>
 <body>
@@ -290,6 +389,56 @@
             </div>
         </div>
 
+    </div>
+
+    <div class="feedback">
+        <div class="container">
+            <h2 class="feedback-title">What Our Clients Says</h2>
+            <div class="reviews">
+                <div class="review">
+                    <img class="review-mark" src="./images/comma1.svg">
+                    <p class="review-comment">
+                        Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+                    </p>
+                    <div class="review-separator"></div>
+                    <div class="review-user">
+                        <img class="review-user-avatar" SRC="./images/review1.svg">
+                        <div>
+                            <h3 class="review-user-name">Oberon Shaw, MCH</h3>
+                            <p class="review-user-info">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review review-dark">
+                    <img class="review-mark2" src="./images/comma2.svg">
+                    <p class="review-comment">
+                        Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+                    </p>
+                    <div class="review-separator"></div>
+                    <div class="review-user">
+                        <img class="review-user-avatar2" SRC="./images/review2.svg">
+                        <div>
+                            <h3 class="review-user-name">Oberon Shaw, MCH</h3>
+                            <p class="review-user-info">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="review review-dark">
+                    <img class="review-mark2" src="./images/comma2.svg">
+                    <p class="review-comment">
+                        Whitepate is designed as a collaboration tool for businesses that is a full project management solution.
+                    </p>
+                    <div class="review-separator"></div>
+                    <div class="review-user">
+                        <img class="review-user-avatar3" SRC="./images/review3.svg">
+                        <div>
+                            <h3 class="review-user-name">Oberon Shaw, MCH</h3>
+                            <p class="review-user-info">Head of Talent Acquisition, North America</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 </html>
